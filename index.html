@@ -1,3 +1,9 @@
+<!-- The calander runs monday to sunday-->
+<!-- The days represent a 9 to 5 workday-->
+<!-- The blocks display in red for present, green for future and gray for past -->
+<!-- Text can be added to the fields -->
+<!-- Text can be saved in the field -->
+<!-- The text is saved in local storage and persists when the page is refreshed-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,18 +38,25 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <ul>
-        <li>9am</li>
-        <li>10am</li>
-        <li>11am</li>
-        <li>12pm</li>
-        <li>1pm</li>
-        <li>2pm</li>
-        <li>3pm</li>
-        <li>4pm</li>
-        <li>5pm</li>
-      </ul>
-     
+      <div id="8am" class="horizontal time-segment"
+      <row class="col-md-1 hour"></row>
+        8:00am
+      </div>
+     <textarea class="col-md-10 description"></textarea>
+
+     <div class="container">
+      <div id="9am" class="horizontal time-segment"
+      <div class="col-md-1 hour">
+        9:00am
+      </div>
+     <textarea class="col-md-10 description"></textarea>
+
+     <div class="container">
+      <div id="10am" class="horizontal time-segment"
+      <div class="col-md-1 hour">
+        10:00am
+      </div>
+     <textarea class="col-md-10 description"></textarea>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
