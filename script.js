@@ -42,18 +42,19 @@ $(".save-btns").each (function(currentValue) {
     console.log($(this)[0].value)
     console.log($(this).val())
 $(this).click(function(event){
-
+    event.preventDefault();
     console.log(event.target.value)
     var text = $(`#text${event.target.value}`).val()
     console.log(text)
     var time = $(`#time${event.target.value}`).val()
-    localStorage.setItem(time, text);
-
+    console.log(time)
+    localStorage.setItem(`#time);
+    localStorage.setItem(`#text);
 })
 
 
     
-//$("#8 .description").val(localStorage.getItem("8"));
+$("#8.description").val(localStorage.getItem("8"));
 //$("#9 .description").val(localStorage.getItem("9"));
 //$("#10 .description").val(localStorage.getItem("10"));
 
