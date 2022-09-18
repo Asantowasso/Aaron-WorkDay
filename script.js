@@ -57,6 +57,13 @@ $(this).click(function(event){
 $("#text8").val(localStorage.getItem("8"));
 $("#text9").val(localStorage.getItem("9"));
 $("#text10").val(localStorage.getItem("10"));
+$("#text11").val(localStorage.getItem("11"));
+$("#text12").val(localStorage.getItem("12"));
+$("#text13").val(localStorage.getItem("13"));
+$("#text14").val(localStorage.getItem("14"));
+$("#text15").val(localStorage.getItem("15"));
+$("#text16").val(localStorage.getItem("16"));
+$("#text17").val(localStorage.getItem("17"));
 
     
     })
