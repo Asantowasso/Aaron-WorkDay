@@ -11,3 +11,4 @@
 -The color coding make it very clear what tasks need to be done when and what part ofthe day it is.
 -Text written in the field and saved will presist after a refresh ensiring information is not lost.
 
+<img src ="Workday.png">
