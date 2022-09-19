@@ -8,8 +8,8 @@
 
 ## Usage
 -The user will use the application to plan their workday.
--The color coding make it very clear what tasks need to be done when and what part ofthe day it is.
--Text written in the field and saved will presist after a refresh ensiring information is not lost.
+-The color coding make it very clear what tasks need to be done when and what part of the day it is.
+-Text written in the field and saved will presist after a refresh ensuring information is not lost.
 
 Deployed Application: https://asantowasso.github.io/Aaron-WorkDay/
 
