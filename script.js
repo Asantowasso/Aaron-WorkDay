@@ -1,6 +1,6 @@
 //create a function to save text to the fields 
 // create a function to change color of cells as time passes
-// 
+
 $( document ).ready(function() {
 
 var timeDisplayEl = $('#show-time');
@@ -19,16 +19,13 @@ var currentHour = moment().hour()
 console.log(currentHour)
 if ($(this)[0].id < currentHour) {
     $(this).css("background-color","gray")
-//$(this)[0].backgroundColor="gray"
 }
 if ($(this)[0].id > currentHour) {
     $(this).css("background-color","green")
-//$(this)[0].backgroundColor="gray"
 }
 
 if ($(this)[0].id == currentHour) {
     $(this).css("background-color","red")
-//$(this)[0].backgroundColor="gray"
 }
 
 })
